@@ -1,3 +1,13 @@
 * {
   font-family: 'IBM Plex Mono', monospace !important;
 }
+.uk-flex-column {
+  padding: 25px !important;
+}
+
+@media screen and (max-width:450px){
+  .uk-heading-xlarge {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+}
