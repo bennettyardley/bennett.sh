@@ -2,6 +2,7 @@
   <head>
     <title>Bennett Yardley</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./css/uikit.min.css" />
@@ -10,34 +11,144 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="uk-column-1-2">
-      <div class="uk-flex-inline uk-flex-column uk-width-1-2">
+    <div class="uk-flex">
+      <div class="uk-flex-inline uk-flex-column uk-width-1-2 padTitle">
+        <div uk-sticky="offset: 25; end: 100">
         <h1 class="uk-heading-xlarge uk-text-bolder">bennett</h1>
         <h1 class="uk-heading-xlarge">yardley</h1>
+        </div>
       </div>
-      
+      <div class="uk-flex-inline uk-flex-column uk-width-1-1 padList">
       <div uk-sticky>
-        <ul uk-switcher="animation: uk-animation-fade; connect: .switcher-container" class="uk-list uk-padding uk-text-right">
+        <ul uk-switcher="animation: uk-animation-fade; connect: .switcher-container" class="uk-list uk-text-right">
           <li class="uk-margin-small uk-flex-right"><a class="uk-link-muted" href="#">about</a></li>
+          <li class="uk-margin-small"><a class="uk-link-muted" href="#">resume</a></li>
           <li class="uk-margin-small"><a class="uk-link-muted" href="#">projects</a></li>
-          <li class="uk-margin-small"><a class="uk-link-muted" href="#">links</a></li>
         </ul>
+      </div>
       </div>
     </div>
     <ul class="uk-switcher uk-margin switcher-container">
       <li>
         <div class="uk-card uk-padding-large uk-margin-xlarge uk-margin-xlarge-left uk-margin-xlarge-right">
-          text to be added
+          Hi! I'm Bennett, a cyber security professional with a passion for development. I grew up in Baltimore, MD but currently live in 
+          Philadelphia, PA. I graduated from Drexel University with a B.S. in Computing and Security Technology (think IT, but with a focus 
+          on security). I'm currently working as a Security Consultant and continuing my learning through AWS Certified and CompTIA. Click 
+          the links on the right to learn more about me and my projects.
         </div>
       </li>
       <li>
         <div class="uk-card uk-padding-large uk-margin-xlarge uk-margin-xlarge-left uk-margin-xlarge-right">
-          text to be added
+          <ul uk-tab>
+              <li><a href="#">PwC</a></li>
+              <li><a href="#">Unisys</a></li>
+              <li><a href="#">Drexel</a></li>
+              <li><a href="#">Leidos</a></li>
+              <li><a href="#">Certs</a></li>
+              <li><a href="#">Skills</a></li>
+          </ul>
+          <ul class="uk-switcher uk-margin">
+              <li>
+                <div class="uk-grid-small" uk-grid>
+                  <div class="uk-width-expand">Cyber Security Consultant</div>
+                  <div>2021 - Now</div>
+              </div>
+              <br>
+                <ul class="uk-list uk-list-circle">
+                <li>Installed, configured, and maintained ForgeRock Identity and Access Management for an environment of over 800,000 users</li>
+                <li>Designed and implemented automation processes to create and update user profiles in bulk</li>
+                <li>Developed login pages, authentication methods, and API endpoints to allow users to securely and efficiently access resources</li>
+                <li>Preformed data analysis against Active Directory and Splunk to ensure data quality and system performance</li>
+                <li>Customized and managed help desk user management software</li>
+              </ul>
+                </li>
+              <li>
+                <div class="uk-grid-small" uk-grid>
+                  <div class="uk-width-expand">Stealth Security Developer</div>
+                  <div>2020 - 2021</div>
+              </div>
+              <br>
+                <ul class="uk-list uk-list-circle">
+                <li>Led development of a session management REST API service to be used in Stealth core, an intranet encryption software</li>
+                <li>Analyzed requirements and proposed a programming language (NodeJS) and a database (CouchDB)	</li>
+                <li>Architected and developed the service to enable efficient and clustered session management</li>
+                <li>Maintained application security with server-side encryption and JWT authorization</li>
+                <li>Presented progress to key stakeholders and leadership during sprint reviews</li>
+              </ul>
+                </li>
+              <li>
+                <div class="uk-grid-small" uk-grid>
+                  <div class="uk-width-expand">IT Security Analyst</div>
+                  <div>2019 - 2020</div>
+              </div>
+              <br>
+                <ul class="uk-list uk-list-circle">
+                <li>Managed vulnerabilities, performed incident investigations, and secured network traffic for the entire University using Splunk, Tenable.sc, Palo Alto Panorama, and Shodan which led to a significant decrease in compromised accounts</li>
+                <li>Led the University's bug bounty program and investigated hundreds of vulnerabilities, including web app vulnerabilities, SQL injection, and 0-day exploits affecting software used nationwide</li>
+                <li>Conducted major incident investigations and reporting of KPI's to leadership</li>
+                <li>Developed a custom Python service to discover typo-squatters attempting to impersonate Drexel University</li>
+                <li>Created automation solutions to improve workplace productivity and workflow using Microsoft Power Automate and Python</li>
+              </ul>
+                </li>
+              <li>
+                <div class="uk-grid-small" uk-grid>
+                  <div class="uk-width-expand">Networking Engineer</div>
+                  <div>2019</div>
+              </div>
+              <br>
+                <ul class="uk-list uk-list-circle">
+                <li>Decompiled and analyzed malware binaries with Radare2 and Ghidra</li>
+                <li>Created an analysis pipeline using Python, Radare2, VirusTotal, and Kafka</li>
+                <li>Tested the effectiveness of exploits on randomized binaries with Metasploit</li>
+                <li>roduced documentation, data analytics, and recommendations that were presented to leadership</li>
+              </ul>
+                </li>              
+              <li><ul class="uk-list uk-list-circle">
+                <li>AWS Security - Specialty</li>
+                <li>AWS Solutions Architect</li>
+                <li>AWS Cloud Practitioner</li>
+                <li>CompTIA Security+</li>
+              </ul>
+                </li>
+              <li><ul class="uk-list uk-list-circle">
+                <li>Programming Languages:	Python, NodeJS, PHP, Web (HTML, CSS, JS), SQL</li>
+                <li>Servers:
+                  <ul class="uk-list uk-list-circle">
+                    <li>AWS: Lambda, EC2, API Gateway, S3, CloudFront, DynamoDB</li>
+                    <li>Other: Apache, MySQL, MongoDB</li>
+                </ul>
+                </li>
+                <li>Software:	Git, Splunk, ForgeRock, Postman, Wireshark, VMWare Workstation, Tenable.sc, Palo Alto Panorama, Jira, Notion</li>
+                <li>Operating Systems:	Windows, Windows Server, Ubuntu, Ubuntu Server, macOS, Kali</li>
+                <li>Productivity Software:
+                  <ul class="uk-list uk-list-circle">
+                    <li>Microsoft: Word, Excel, Power Point, PowerBI, Power Automate </li>
+                    <li>Adobe: Photoshop, After Effects</li>
+                </ul>
+                </li>
+              </ul>
+                </li>
+          </ul>
         </div>
       </li>
       <li>
-        <div class="uk-card uk-padding-large uk-margin-xlarge uk-margin-xlarge-left uk-margin-xlarge-right">
-          text to be added
+        <div class="uk-card uk-padding-large uk-margin-xlarge uk-margin-xlarge-left uk-margin-xlarge-right ">
+          <ul uk-tab>
+            <li><a href="#">SaferCloud</a></li>
+            <li><a href="#">LTIJS DynamoDB</a></li>
+            <li><a href="#">Notion Reoccuring Events</a></li>
+            <li><a href="#">TypoSquatter Detection</a></li>
+            <li><a href="#">Permission Manager</a></li>
+            <li><a href="#">Firewall</a></li>
+        </ul>
+        <ul class="uk-switcher uk-margin">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </ul>
         </div>
       </li>
     </ul>
